@@ -9,6 +9,32 @@ body {
 	max-width: 1000px;
 	margin: 0 auto;
 }
+/* スマホ対応（600px以下） */
+@media (max-width: 600px) {
+    body {
+        font-size: 1rem;
+    }
+    h1 {
+        font-size: 2.5rem; /* 見出し1を2倍に */
+    }
+    h2 {
+        font-size: 2rem; /* 見出し2を2倍に */
+    }
+    h3 {
+        font-size: 1.5rem; /* 見出し3を2倍に */
+    }
+    table {
+        font-size: 1rem; /* テーブルのフォントサイズも2倍に */
+		width: 100%;
+    }
+    input, button {
+        font-size: 1rem; /* 入力フィールドとボタンも2倍に */
+    }
+    #result {
+        font-size: 1rem; /* 結果エリアのフォントサイズも2倍に */
+    }
+}
+
 
 /* 見出しスタイル */
 h1, h2, h3, h4, h5, h6 {
@@ -123,31 +149,6 @@ a:hover {
 
 
 
-/* スマホ対応（600px以下） */
-@media (max-width: 600px) {
-    body {
-        font-size: 1.4rem; /* 全体のテキストサイズを2倍に */
-    }
-    h1 {
-        font-size: 2.5rem; /* 見出し1を2倍に */
-    }
-    h2 {
-        font-size: 2.5rem; /* 見出し2を2倍に */
-    }
-    h3 {
-        font-size: 2.5rem; /* 見出し3を2倍に */
-    }
-    table {
-        font-size: 1rem; /* テーブルのフォントサイズも2倍に */
-		width: 100%;
-    }
-    input, button {
-        font-size: 1rem; /* 入力フィールドとボタンも2倍に */
-    }
-    #result {
-        font-size: 1rem; /* 結果エリアのフォントサイズも2倍に */
-    }
-}
 
 
 
