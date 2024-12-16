@@ -56,6 +56,15 @@ input, button {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 軽い影をつける */
 }
 
+input{
+    font-size: 40px;
+    width: 100px;
+}
+button{
+    font-size: 20px;
+    margin: 5px 0;
+    /* margin-left: 50px; */
+}
 input:focus, button:focus {
     outline: none; /* フォーカス時の青枠を消す */
     border-color: #ffb6c1; /* フォーカス時にピンク色 */
@@ -65,7 +74,7 @@ input:focus, button:focus {
 button {
     background-color: #ffb6c1; /* 優しいピンク */
     color: #fff;
-    font-weight: bold;
+/*     font-weight: bold; */
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
