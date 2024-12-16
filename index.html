@@ -16,7 +16,8 @@
     使い方は下の文章を読んでください。
 </p>
 	ゴージャスボールに入ってるポケモンには適用できません。ゴージャスボール版は<a href="https://migawariw.github.io/affection_gorgeous/">なかよし度チェッカー（ゴージャスボール用）</a>を参照。
-    <div class="input-group">
+   <button onclick="clearFields()">クリア</button>
+	<div class="input-group">
         <label for="a0">ポイントアップ使用前のなかよしきのみの上限：</label>
         <input type="text" id="a0">　個
     </div>
@@ -39,7 +40,7 @@
 	<!-- ボタン -->
 <div class="button-container">
     <button onclick="calculate()">計算</button>
-    <button onclick="clearFields()">クリア</button>
+    
 </div>
 
     <div class="output" id="result"></div>
